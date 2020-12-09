@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    background-color: tomato;
+
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 91vh;
+}
+
+.sidebar{
+    background-color: black;
+    color: white;
+}
+
+.newrecord, .oldrecord{
+    display: flex;
+    height: 70px;
+    width: auto;
+
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.mainshow{
+    
+}
+
+.mainshow > table{
+    width: 100vh;
+    height: 40px;
+}
+
+.lablename{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.textbox{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+table, th, td {
+    text-align: right;
+}
+
+table{
+    margin: 100px auto;
+}
+
+.submit, .clear{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit{
+    background-color: yellowgreen;
+
+}
+
+.clear{
+    background-color: tomato;
+}
+
+.recordbtn{
+    font-size: large;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.details{
+    display: flex;
+    height: 80px;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: teal;
+}
+
