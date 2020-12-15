@@ -10,3 +10,5 @@ Which performs CRUD operation through UI, in MySQL database.
 ## Search result
 ![Capture](https://user-images.githubusercontent.com/62931444/102257176-6a580480-3f32-11eb-9821-cceb51e96ee6.JPG)
 
+Search result will get sorted according to the latest date.
+
